@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     namespace: ${{ values.namespace }}
-    server: https://rhsummitdemos-dns-ylk490nk.hcp.germanywestcentral.azmk8s.io:6443
+    server: https://rhsummitdemos-dns-ylk490nk.hcp.germanywestcentral.azmk8s.io:443
   project: default
   source:
     path: manifests/base
